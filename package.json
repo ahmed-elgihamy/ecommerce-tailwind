@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "init": "^0.1.2",
+    "json-server": "^1.0.0-beta.3"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch",
+    "json-server": "json-server --watch auth.json"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
